@@ -80,7 +80,7 @@ fname.onblur = function show()
         fname.style.backgroundColor = "transparent";
         fa_fname.style.display = "none";
         }
-        else {fname.style.border = "1px solid red";
+        else {fname.style.border = "1px solid rgb(176, 176, 176)";
         fname.style.outline = "2px solid red";
         fname.style.backgroundColor = "rgba(246, 178, 178, 0.28)";
         fa_fname.style.display = "block";
@@ -90,8 +90,8 @@ fname.onblur = function show()
 
 snmbox.onblur = function show()
 {
-    snmbox.style.border = "1px solid red";
-    snmbox.style.outline = "2px solid red";
+    snmbox.style.border = "1px solid rgb(176, 176, 176)";
+    snmbox.style.outline = "1px solid red";
     snmbox.style.backgroundColor = "rgba(255, 238, 238, 0.02)";
     fa_sname.style.display = "block";
 
@@ -103,14 +103,14 @@ snmbox.onblur = function show()
         fa_sname.style.display = "none";
     }
     
-        if (fname.value != "")
+        if (snmbox.value != "")
         {   
         snmbox.style.border = "0.1px solid rgb(176, 176, 176)";
         snmbox.style.outline = "1px solid black";
         snmbox.style.backgroundColor = "transparent";
         fa_sname.style.display = "none";
         }
-        else {fname.style.border = "1px solid red";
+        else {fname.style.border = "1px solid rgb(176, 176, 176)";
         snmbox.style.outline = "2px solid red";
         snmbox.style.backgroundColor = "rgba(246, 178, 178, 0.28)";
         fa_sname.style.display = "block";
