@@ -35,21 +35,21 @@
         <!-- ........................ -->
 
         <div class="form-bottom">
-
+            <form action="" id="signup-form">
             <div class="name-input">
 
-                <input type="text" placeholder="First name" class="nmbox">
+                <input type="text" placeholder="First name" class="nmbox" id="fnmbox">
                 <i class="fa-solid fa-circle-exclamation" id="fa-fname"></i>
-                <input type="text" placeholder="Surname" class="nmbox">
+                <input type="text" placeholder="Surname" class="nmbox" id="snmbox">
                 <i class="fa-solid fa-circle-exclamation" id="fa-sname"></i>
             </div>
 
 
-            <div class="input-mainbox">
+            <div class="input-mainbox" id="">
                 <p>Date of birth</p><i class="fa-solid fa-circle-question"></i><i class="fa-solid fa-circle-exclamation" id="fa-dob"></i>
                 <div class="dob-input">
                 
-                    <select name="" id="" class="ddmmyy">
+                    <select name="" id="ddmmyy-box1" class="ddmmyy">
                         <option value="">Day</option>
                         <option value="">1</option>
                         <option value="">2</option>
@@ -85,7 +85,7 @@
                         
                     </select>
     
-                    <select name="" id="" class="ddmmyy">
+                    <select name="" id="ddmmyy2" class="ddmmyy">
                         <option value="">Month</option>
                         <option value="">January</option>
                         <option value="">February</option>
@@ -102,7 +102,7 @@
                         
                     </select>
     
-                    <select name="" id="" class="ddmmyy">
+                    <select name="" id="ddmmyy-box3" class="ddmmyy">
                         <option value="">Year</option>
                         <option value="">1990</option>
                         <option value="">1991</option>
@@ -148,25 +148,25 @@
 
             <div class="input-mainbox">
 
-                <p>Gender</p><i class="fa-solid fa-circle-question faq2"></i><i class="fa-solid fa-circle-exclamation" id="fa-gen"></i>
+                <p>Gender</p><i class="fa-solid fa-circle-question faq2" id="fa-gen-ques-mark"></i><i class="fa-solid fa-circle-exclamation" id="fa-gen"></i>
 
                 <div class="gender-input">
 
-                <label class="gender">Male <input type="radio" name="" id=""></label>
+                <label class="gender">Male <input type="radio" name="" id="gen-male"></label>
 
-                <label class="gender">Female <input type="radio" name="" id=""></label>
+                <label class="gender">Female <input type="radio" name="" id="gen-female"></label>
 
-                <label class="gender">Other <input type="radio" name="" id=""></label>
+                <label class="gender">Other <input type="radio" name="" id="gen-other"></label>
 
                 </div>
 
             </div>
 
 
-            <input type="email" placeholder="Moble number or email address" class="email-input"><i class="fa-solid fa-circle-exclamation" id="fa-email"></i>
+            <input type="email" placeholder="Moble number or email address" class="email-input" id="email"><i class="fa-solid fa-circle-exclamation" id="fa-email"></i>
 
 
-            <input type="password" placeholder="New password" class="paswd">
+            <input type="password" placeholder="New password" class="paswd" id="paswrd">
             <i class="fa-solid fa-circle-exclamation" id="fa-pass"></i>
 
 
@@ -177,10 +177,10 @@
             
             </p>
 
-            <input type="submit" value="Sign Up" class="submit">
+            <input type="submit" value="Sign Up" class="submit" id="submit">
 
             <a href="https://www.facebook.com/" class="fb-login-link">Already have an account?</a>
-
+            </form>
         </div>
 
 
@@ -194,6 +194,7 @@
 
 
 
-
+<!-- .................................................................... -->
+<script src="FACEBOOK REGISTRATION FORM.js"></script>
 </body>
 </html>
