@@ -325,7 +325,7 @@ body {
     .form-box {
         height: 590px;
         margin: 0.3vw auto;
-        width: 350px;
+        width: 330px;
         border-radius: 5px;
         border: 0.1px solid transparent;
         box-shadow: 1px 1px 10px -3px;
@@ -497,7 +497,7 @@ body {
     .terms-con {
         width: 96%;
         margin: 5px auto 5px auto;
-        font-size: 13px;
+        font-size: 11px;
         color: #767676;
     }
     .fb-link {
