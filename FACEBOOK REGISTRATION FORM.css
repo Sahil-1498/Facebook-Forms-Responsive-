@@ -586,15 +586,15 @@ body {
         display: flex;
         align-items: center;
         width: 100%;
-        height: 10vw;
+        height: 2cm;
         border: 0.1px solid transparent;
         justify-content: center;
     }
     
     .fb-heading img {
-        margin: 0;
-        height: 8vw;
-        width: 40%;
+        margin: 0 auto;
+        height: 1.4cm;
+        width: 5cm;
         border: none;
     }
     
