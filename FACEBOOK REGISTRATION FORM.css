@@ -8,30 +8,36 @@
 }
 /* .......................... */
 .fa-circle-exclamation {
-    position:fixed;
+    position:absolute;
     color: rgb(164, 0, 0);
 }
 #fa-fname {
+    display: none;
     top: 224px;
     left: 735px;
 }
 #fa-sname {
+    display: none;
     top: 224px;
     left: 945px;
 }
 #fa-dob {
+    display: none;
     top: 265px;
     left: 945px;
 }
 #fa-gen {
+    display: none;
     top: 345px;
     left: 945px;
 }
 #fa-email {
+    display: none;
     top: 445px;
     left: 945px;
 }
 #fa-pass {
+    display: none;
     top: 505px;
     left: 945px;
 }
@@ -112,7 +118,7 @@ body {
     justify-content: space-between;
     border: 0.1px solid transparent;
     margin: 10px auto 0 auto;
-    height: 10%;
+    height: 50px;
 }
 .nmbox {
     height: 100%;
@@ -230,7 +236,7 @@ body {
     border: 0.1px solid transparent;
     border-radius: 6px;
     font-size: 20px;
-    margin:  10px auto 5px auto;
+    margin:  6px auto 3px auto;
     color: #fff;
     font-weight: 600;
     cursor: pointer;
@@ -530,7 +536,9 @@ body {
 }
 */
 /* ................................................................... */
-
+form {
+    height: fit-content;
+}
 
 
 
