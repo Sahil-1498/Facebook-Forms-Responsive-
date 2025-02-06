@@ -323,7 +323,7 @@ body {
     
     
     .form-box {
-        height: 588px;
+        height: 590px;
         margin: 0.3vw auto;
         width: 350px;
         border-radius: 5px;
@@ -335,7 +335,7 @@ body {
     
     
     .form-top {
-        width: 350px;
+        width: 330px;
         height: 60px;
         align-items: center;
         text-align: center;
@@ -356,7 +356,7 @@ body {
     
     .form-bottom {
         height: 530px;
-        width: 350px;
+        width: 330px;
         background-color: rgb(255, 255, 255);
         border-bottom-left-radius: 5px;
         border-bottom-right-radius: 5px;
